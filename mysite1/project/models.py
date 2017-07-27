@@ -18,5 +18,3 @@ class Reservations(models.Model):
 	Date = models.CharField(max_length=20)
 	Time = models.CharField(max_length=20)
 	Duration = models.IntegerField(default=0)
-	
-# Create your models here.
